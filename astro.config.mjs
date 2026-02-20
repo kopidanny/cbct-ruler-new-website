@@ -8,8 +8,8 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  // Update this to your production domain before deploy.
-  site: 'https://your-blog-domain.com',
+  // Update this after deploying to Cloudflare Pages (e.g., 'https://your-project.pages.dev')
+  site: 'https://cbct-ruler.pages.dev',
   integrations: [mdx(), sitemap()],
 
   vite: {
